@@ -1,0 +1,85 @@
+
+body {
+	/*background: url(slika_windows.jpg) no-repeat left top;
+	background-size: 100%;*/
+	background: linear-gradient(#00001a,  #0000cc);
+	
+}
+
+div#okvir {
+	border: 2px solid red;
+	height: 1000px;
+	width: 1200px;
+	margin-left: 65px; 
+	border-radius: 20px;
+}
+
+div#heder {
+	border: 1px solid red;
+	height: 200px;
+	width: 1200px;
+	border-radius: 20px 20px 0 0;
+	background: url(novi_sad_4.jpg) left top no-repeat;
+	color: #2D64F5;
+	text-align: center;
+	text-shadow: 5px 5px 7px #D3D3D3;
+	font-size: 90px;
+	line-height: 200px;
+	font-family: Georgia, serif;
+	
+}
+
+div#logo {
+	border: 5px solid #FFF;
+	box-shadow: 3px 3px 3px 0 #333;
+	height:200px;
+	width: 200px;
+	float: left;
+	/*color: white;*/
+	text-align: center;
+	font-size: 50px;
+	line-height: 200px;
+	border-radius: 100px;
+	background: url(logo_4.png) left top repeat;
+}
+
+div#navigacija {
+	border: 1px solid red;
+	height: 35px;
+	width: 1200px;
+	background:  #1f1f14;	
+}
+
+div#levaStrana {
+	border: 1px solid red;
+	width: 200px;
+	height: 735px;
+	float: left;
+	background: linear-gradient (#000066, #ccccff);
+}
+
+div#centralniDeo {
+	border: 1px solid red;
+	height: 735px;
+	width: 794px;
+	background: white;
+	float: left;
+}
+
+div#desnaStrana {
+	border: 1px solid red;
+	height: 735px;
+	width: 200px;
+	background: linear-gradient (#000066, #ccccff);
+	float: right;
+}
+
+div#futer {
+	height: 24px;
+	width: 1200px;
+	text-align: center;
+	background: linear-gradient( #00001a,  #0000cc);
+	color: white;	
+	float: left;
+	border-radius: 0 0 20px 20px;
+}
